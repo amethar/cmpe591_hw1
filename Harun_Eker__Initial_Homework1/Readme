@@ -1,0 +1,12 @@
+To collect data (running simulation) and train the model, run:
+python homework1.py --collect_data
+
+To train the model with existing data, run:
+python homework1.py
+
+To change the dataset to train (or collect data), change line 220 of homework1.py:
+number_of_sims = 50
+
+to a different number:
+number_of_sims = 100
+
